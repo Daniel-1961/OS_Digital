@@ -37,6 +37,7 @@ export const projects = [
     {
         id: 'columbus',
         title: 'Columbus Assicurazioni',
+        image: '/assets/images/columbus_img_94f83b379a.webp',
         bullets: [
             'Adapted the platform for the Italian market.',
             'Full Umbraco build with Azure hosting.',
@@ -47,6 +48,7 @@ export const projects = [
     {
         id: 'ecc',
         title: 'Electric Car Chargers UK',
+        image: '/assets/images/ecc_image_fadf009002.webp',
         bullets: [
             'Designed and developed a web and mobile app.',
             'Helped their teams handle installations, customer data, and scheduling.',
@@ -57,6 +59,7 @@ export const projects = [
     {
         id: 'berkeley',
         title: 'Berkeley Square Medical',
+        image: '/assets/images/berkely_square_medical_e0182599fe.webp',
         bullets: [
             'Upgraded the site for private surgery in Harley Street.',
             'Improved booking experience.',
@@ -70,6 +73,7 @@ export const products = [
     {
         id: 'optiloom',
         title: 'Optiloom',
+        image: '/assets/images/001_4f50c54833.webp',
         description:
             'Run AB tests directly on your live site. Track results. Make confident changes backed by data.',
         link: '/portfolio/optiloom',
@@ -77,6 +81,7 @@ export const products = [
     {
         id: 'observe-iq',
         title: 'Observe IQ',
+        image: '/assets/images/002_f652239bb9.webp',
         description:
             'Track any webpage for changes and get instant alerts. Whether it\'s a price drop, job posting, or competitor update — Observe IQ keeps you informed in real time.',
         link: '/portfolio/observe-iq',
@@ -84,6 +89,7 @@ export const products = [
     {
         id: 'ragger',
         title: 'Ragger',
+        image: '/assets/images/Ragger_S_Vg_22ddd33dda.webp',
         description:
             'AI-powered conversational commerce assistant that integrates with existing APIs to deliver live quotes, real-time prices, and instant bookings.',
         link: '/portfolio/ragger',

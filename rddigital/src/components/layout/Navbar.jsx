@@ -46,9 +46,12 @@ export default function Navbar() {
         `}
             >
                 {/* Logo */}
-                <Link to="/" className="flex items-center gap-2 shrink-0">
-                    <span className="text-xl font-bold text-primary-dark">
-                        RD <span className="gradient-text">Digital</span>
+                <Link to="/" className="flex items-center gap-2.5 shrink-0">
+                    <div className="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center">
+                        <span className="text-white font-black text-sm">R</span>
+                    </div>
+                    <span className="text-lg font-bold text-primary-dark tracking-tight">
+                        RD <span className="gradient-text">DIGITAL</span>
                     </span>
                 </Link>
 
@@ -127,9 +130,15 @@ export default function Navbar() {
 
                 {/* CTA */}
                 <div className="hidden lg:block">
-                    <Button to="/contact" size="sm">
+                    <Link
+                        to="/contact"
+                        className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white gradient-bg rounded-full hover:opacity-90 transition-all duration-200 shadow-md"
+                    >
                         Book a Call
-                    </Button>
+                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </Link>
                 </div>
 
                 {/* Mobile Hamburger */}
