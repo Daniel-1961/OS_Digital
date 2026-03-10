@@ -1,0 +1,9 @@
+// Section components directory
+// Each homepage section will be a separate component here:
+// - Hero.jsx
+// - Services.jsx
+// - Portfolio.jsx
+// - WhyRD.jsx
+// - Products.jsx
+// - FAQ.jsx
+// - Testimonials.jsx
