@@ -537,9 +537,8 @@ export default function About() {
                                 </button>
                               </div>
                               <div
-                                className={`mt-1 w-full overflow-hidden px-2 transition-[max-height] duration-300 ease-in-out ${
-                                  isOpen ? "max-h-40" : "max-h-0"
-                                }`}
+                                className={`mt-1 w-full overflow-hidden px-2 transition-[max-height] duration-300 ease-in-out ${isOpen ? "max-h-40" : "max-h-0"
+                                  }`}
                               >
                                 <p className="text-sm md:text-base leading-6 text-[#3C3C5E] w-11/12 mt-2">
                                   {faq.answer}
@@ -613,9 +612,8 @@ export default function About() {
                                 </button>
                               </div>
                               <div
-                                className={`mt-1 w-full overflow-hidden px-2 transition-[max-height] duration-300 ease-in-out ${
-                                  isOpen ? "max-h-40" : "max-h-0"
-                                }`}
+                                className={`mt-1 w-full overflow-hidden px-2 transition-[max-height] duration-300 ease-in-out ${isOpen ? "max-h-40" : "max-h-0"
+                                  }`}
                               >
                                 <p className="text-sm md:text-base leading-6 text-[#3C3C5E] w-11/12 mt-2">
                                   {faq.answer}

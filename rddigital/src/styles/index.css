@@ -7,6 +7,7 @@
 
 @theme {
   /* Colors */
+  --color-primary: #175070;
   --color-primary-dark: #0a283a;
   --color-primary-darker: #061c3d;
   --color-primary-light: #f1f7fa;
