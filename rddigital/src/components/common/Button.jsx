@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-
 const variants = {
   primary:
     'bg-primary-dark text-white hover:bg-primary-darker shadow-lg shadow-primary-dark/20',
